@@ -13,6 +13,8 @@ input, button {
   max-width: 468px;
   margin: auto;
   padding-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__logo-container {
