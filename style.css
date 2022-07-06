@@ -11,12 +11,8 @@ input, button {
 
 .header {
   max-width: 468px;
-  height: 80px;
   margin: auto;
-  display: flex;
-  padding-top: 30px;
-  align-items: baseline;
-  justify-content: space-between;
+  padding-top: 60px;
 }
 
 .header__logo-container {
@@ -32,6 +28,11 @@ input, button {
   margin-left: 10px;
   margin-bottom: 25px;
   font-size: 0.6em;
+}
+
+.header__title {
+  margin-top: 40px;
+  font-weight: bold;
 }
 
 .form {
